@@ -21,6 +21,13 @@ cas@ubuntu:~$ python --version
 Python 3.6.3 :: Anaconda, Inc.
 ```
 
+## set up conda environment
+```
+cas@ubuntu:~$ conda create --name web_app
+cas@ubuntu:~$ source activate web_app
+(web_app) cas@ubuntu:~$ 
+```
+
 ## Install node and npm (for bower to manage static resources)
 NOTE: for some reason npm only worked with elevated permission? should look in to a way around that. 
 ```
@@ -28,9 +35,8 @@ cas@ubuntu:~$ curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
 cas@ubuntu:~$ sudo apt-get install nodejs
 cas@ubuntu:~$ sudo npm install -g bower
 ```
-## set up conda environment
+## use bower to get static resources
 ```
-cas@ubuntu:~$ conda create --name web_app
-cas@ubuntu:~$ source activate web_app
-(web_app) cas@ubuntu:~$ 
+(web_app) cas@ubuntu:~/working_dir/casadilla_web/casadilla_app/static$ bower install bootstrap-css jquery respond html5shiv font-awesome
 ```
+

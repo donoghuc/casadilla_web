@@ -10,9 +10,6 @@ with open(os.path.join(here, 'CHANGES.txt')) as f:
 
 requires = [
     'html2text',
-    'mailchimp',
-    'mailer',
-    'passlib',
     'pyramid',
     'pyramid_chameleon',
     'pyramid_debugtoolbar',
@@ -27,9 +24,9 @@ tests_require = [
     'pytest-cov',
 ]
 
-setup(name='blue_yellow_app',
+setup(name='casadilla_app',
       version='0.0',
-      description='blue_yellow_app',
+      description='casadilla_app',
       long_description=README + '\n\n' + CHANGES,
       classifiers=[
           "Programming Language :: Python",
@@ -50,6 +47,6 @@ setup(name='blue_yellow_app',
       install_requires=requires,
       entry_points="""\
       [paste.app_factory]
-      main = blue_yellow_app:main
+      main = casadilla_app:main
       """,
       )

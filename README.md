@@ -37,6 +37,9 @@ cas@ubuntu:~$ sudo npm install -g bower
 ```
 ## use bower to get static resources
 ```
-(web_app) cas@ubuntu:~/working_dir/casadilla_web/casadilla_app/static$ bower install bootstrap-css jquery respond html5shiv font-awesome
+(web_app) cas@ubuntu:~/working_dir/casadilla_web/casadilla_app/static$ bower install bootstrap-css jquery-dist respond html5shiv font-awesome
 ```
-
+## build project package
+```
+(web_app) cas@ubuntu:~/working_dir/casadilla_web$ pip install -e .
+```

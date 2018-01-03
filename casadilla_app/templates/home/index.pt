@@ -21,6 +21,7 @@
                     <div class="col-sm-2 profile-pic">
                         <img src="/static/img/profile.png"
                              class="img img-circle img-responsive"/>
+                             <span> <i class="fa fa-user" aria-hidden="true"></i> Cas Donoghue</span>
                     </div>
                     <div class="col-sm-10" info> 
                         <h3>What is the purpose of this site?</h3>
@@ -28,7 +29,7 @@
                         </p>
                         <br>
                         <p>
-                        This site is my excuse to explore python for web development. I intend to publish content that interests me with the underlying purpose of learning the underlying web development techniques using python. 
+                        This site is my excuse to explore python for web development. I intend to publish content that interests me with the underlying purpose of learning  web development techniques using python. 
                         </p>
                     </div>
                 </div>
@@ -45,16 +46,19 @@
 
             <div class="container">
                 <div class="site-stuff">
-                    <div class="col-sm-10" info> 
-                        <h3>How is this site built??</h3>
-                        <p> Since 2016 I have had the great pleasure of writing python code for school (BS computer science OSU), for pharmaceutical research (Sarepta Therapeutics) and for the manufacturing industry (Oracle/Sun Microsystems). I have primarily used python for the automation of data analysis and visualization. 
-                        </p>
-                        <br>
-                        <p>
-                        This site is my excuse to explore python for web development. I intend to publish content that interests me with the underlying purpose of learning the underlying web development techniques using python. 
-                        </p>
+                    <div class="col-sm-8" info> 
+                        <h3>How is this site built?</h3>
+                        <p>The triangle image of logos represent the building blocks that power this site</p>
+                            <ul class="">
+                                <li>The site is hosted on a Digital Ocean VPS</li>
+                                <li>The Operating System of the server is Ubuntu (also developed in Ubuntu)</li>
+                                <li>Ansible is used to provision the server</li>
+                                <li>Python is the underlying programming language</li>
+                                <li>Pytest is used for testing</li>
+                                <li>Pyramid web framework is used for operating on internet using MVC architecture</li>
+                            </ul>
                     </div>
-                    <div class="col-sm-2 tree-pic">
+                    <div class="col-sm-4 tree-pic">
                         <img src="/static/img/tree.png"
                              class="img img-rounded img-responsive"/>
                     </div>

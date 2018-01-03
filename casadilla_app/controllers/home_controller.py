@@ -1,6 +1,6 @@
 import pyramid_handlers
 from casadilla_app.controllers.base_controller import BaseController
-# from casadilla_app.infrastructure.supressor import suppress
+from casadilla_app.infrastructure.supressor import suppress
 
 
 class HomeController(BaseController):
@@ -29,7 +29,7 @@ class HomeController(BaseController):
     # @suppress
     # def dont_expose_as_web_action(self):
     #     print("Called dont_expose_as_web_action, what happened?")
-
+    @suppress
     def alternate_row_style(self):
         alt = self.alternate_mode
         self.alternate_mode = not self.alternate_mode

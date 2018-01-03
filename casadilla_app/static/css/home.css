@@ -19,6 +19,17 @@
     right: 16px;
 }
 
+.about {
+    text-align: center;
+}
+
+.about-me span {
+    display: block;
+    font-size: 18px;
+    margin-top: 10px;
+    color: #00b300;
+}
+
 .content-section-a {
     background-color: #333;
 }

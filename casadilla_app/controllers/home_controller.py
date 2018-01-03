@@ -29,7 +29,7 @@ class HomeController(BaseController):
     # @suppress
     # def dont_expose_as_web_action(self):
     #     print("Called dont_expose_as_web_action, what happened?")
-    @suppress
+    # @suppress
     def alternate_row_style(self):
         alt = self.alternate_mode
         self.alternate_mode = not self.alternate_mode

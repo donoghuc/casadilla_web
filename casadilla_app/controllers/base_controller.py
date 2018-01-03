@@ -13,6 +13,10 @@ class BaseController:
         layout_render = pyramid.renderers.get_renderer('casadilla_app:templates/shared/_layout.pt')
         impl = layout_render.implementation()
         self.layout = impl.macros['layout']
+        for k,v in request.headers.environ.items():
+            print(k,v)
+
+            
 
 
     # noinspection PyMethodMayBeStatic

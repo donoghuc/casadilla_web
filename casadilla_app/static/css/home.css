@@ -1,0 +1,31 @@
+.big_img {
+    background: #000 url("/static/img/landing_pg.jpg") center center;
+    /*width: 100%;*/
+    height: 500px;
+    background-size: cover;
+    border-bottom: 1px solid #444;
+    margin-bottom: 0px;
+    position: relative;
+}
+
+
+.big_img .msg {
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    color: white;
+    font-size: 26px;
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+.content-section-a {
+    background-color: #333;
+}
+
+.content-section-a.alternate {
+    background-color: #222;
+    padding: 30px 0;
+    border-top: none;
+    border-bottom: none;
+}

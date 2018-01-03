@@ -2,17 +2,22 @@
     <div metal:fill-slot="main_content">
 
         <!-- Header -->
-            <div>
-                <h1> cas </h1>
+        <div class="big_img">
+
+            <div id="thanks-message">
+                <p class="msg">Reeeeet</p>
             </div>
+
+        </div>
         <!-- /.intro-header -->
 
         <!-- Page Content -->
 
-        <div class="content-section-a ${view.alternate_row_style()}">
-            <h1> cas </h1>
-        </div>
+    </div>
 
+
+    <div metal:fill-slot="additional_css">
+        <link href="/static/css/home.css?cacheId=${view.build_cache_id('/static/css/home.css')}" rel="stylesheet">
     </div>
 
 </div>

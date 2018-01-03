@@ -8,7 +8,7 @@
     <meta name="description" content="pyramid web application">
     <meta name="author" content="Cas Donoghue">
     <link rel="shortcut icon"
-          href="/static/img/fav.png?cacheId=${view.build_cache_id('/static/img/fav.png')}">
+          href="/static/img/code_or.png?cacheId=${view.build_cache_id('/static/img/fav.png')}">
 
     <title>Cas Donoghue</title>
 
@@ -53,7 +53,7 @@
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="/">
-                <img src="/static/img/profile.png"/> <span class="blue-foreground">Cas Donoghue</span> </a>
+                <img src="/static/img/code_or.png"/> <span class="green-foreground">Cas Donoghue</span> </a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">

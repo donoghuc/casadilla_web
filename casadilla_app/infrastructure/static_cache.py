@@ -23,8 +23,6 @@ __hash_lookup = dict()
 
 # Set this to False in production, True in development
 recompute_caches_every_request = True
-enable_tracing = False
-
 
 def build_cache_id(relative_file_url: str):
     if not relative_file_url:
@@ -35,7 +33,6 @@ def build_cache_id(relative_file_url: str):
     key = relative_file_url
 
     if use_hash and key in __hash_lookup:
-        __trace("Using cached lookup for {} -> {}".format(key, __hash_lookup[key]))
         return __hash_lookup[key]
 
     fullname = os.path.abspath(os.path.join(
@@ -47,7 +44,6 @@ def build_cache_id(relative_file_url: str):
     digest_value = __get_file_hash(fullname)
     __hash_lookup[key] = digest_value
 
-    __trace("Computed digest for {} -> {}".format(key, __hash_lookup[key]))
     return digest_value
 
 
@@ -61,10 +57,3 @@ def __get_file_hash(filename):
     return md5.hexdigest()
 
 
-def __trace(text):
-    # This is really for just seeing things in action.
-    # You might want real logging...
-    if not enable_tracing:
-        return
-
-    print(text)

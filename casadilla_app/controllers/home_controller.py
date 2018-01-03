@@ -1,6 +1,6 @@
 import pyramid_handlers
 from casadilla_app.controllers.base_controller import BaseController
-from casadilla_app.infrastructure.supressor import suppress
+
 
 
 class HomeController(BaseController):
@@ -8,29 +8,13 @@ class HomeController(BaseController):
 
     @pyramid_handlers.action(renderer='templates/home/index.pt')
     def index(self):
+        ''' display the main index page for the site and log when user hits it'''
+        self.log.notice(self.req_details)
         return {'value': 'HOME'}
 
-    # @pyramid_handlers.action(renderer='templates/home/about.pt')
-    # def about(self):
-    #     return {'value': 'ABOUT'}
 
-    # @pyramid_handlers.action(renderer='templates/home/bookus.pt')
-    # def bookus(self):
-    #     return {}
-
-    # @pyramid_handlers.action(renderer='templates/home/contact.pt')
-    # def contact(self):
-    #     return {'value': 'CONTACT'}
-
-    # @pyramid_handlers.action(renderer='templates/home/image_credits.pt')
-    # def image_credits(self):
-    #     return {}
-
-    # @suppress
-    # def dont_expose_as_web_action(self):
-    #     print("Called dont_expose_as_web_action, what happened?")
-    # @suppress
     def alternate_row_style(self):
+        ''' alternate the class name of divs on home page view to handle differ  '''
         alt = self.alternate_mode
         self.alternate_mode = not self.alternate_mode
 

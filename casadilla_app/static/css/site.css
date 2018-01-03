@@ -63,8 +63,12 @@ footer .row {
     margin: 0px;
 }
 
-footer a, footer .section-header {
+footer a {
     color: #999;
+}
+
+footer .section-header {
+    color: #00b300;
 }
 
 footer a:hover {

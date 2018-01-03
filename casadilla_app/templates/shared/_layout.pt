@@ -91,19 +91,22 @@
                 <br>
                 <br>
                 Extra special thanks to <a href="https://twitter.com/mkennedy" target="_blank">Michael Kennedy</a> at <a href="https://talkpython.fm" target="_blank">Talk Python</a>. You are my python hero!
-
-
             </div>
+
             <div class="col-md-3">
                 <div class="social">
                     <div class="section-header">Web Presence</div>
-                    <div><a href="mailto:cas.donoghue@gmail.com" target="_blank"
-                    ><i class="fa fa-envelope"></i> email</a>
-                    </div>
                     <div><a href="https://github.com/donoghuc"
-                            target="_blank"><i class="fa fa-github"></i> github</a></div>
-                    <div><a href="https://www.linkedin.com/in/casadilla/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                        linkedin</a>
+                            target="_blank"><i class="fa fa-github"></i> github</a>
+                    </div>
+                    <div><a href="https://stackoverflow.com/users/9034974/cas-donoghue?tab=profile" 
+                            target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i> SO</a>
+                    </div>
+                    <div><a href="mailto:cas.donoghue@gmail.com"
+                            target="_blank"><i class="fa fa-envelope"></i> email</a>
+                    </div>
+                    <div><a href="https://www.linkedin.com/in/casadilla/" 
+                            target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i> linkedin</a>
                     </div>
                 </div>
 

@@ -8,7 +8,7 @@
     <meta name="description" content="pyramid web application">
     <meta name="author" content="Cas Donoghue">
     <link rel="shortcut icon"
-          href="/static/img/code_or.png?cacheId=${view.build_cache_id('/static/img/fav.png')}">
+          href="/static/img/code_or.png?cacheId=${view.build_cache_id('/static/img/code_or.png')}">
 
     <title>Cas Donoghue</title>
 
@@ -97,16 +97,19 @@
                 <div class="social">
                     <div class="section-header">Web Presence</div>
                     <div><a href="https://github.com/donoghuc"
-                            target="_blank"><i class="fa fa-github"></i> github</a>
+                            target="_blank"><i class="fa fa-github" aria-hidden="true" ></i> github</a>
                     </div>
                     <div><a href="https://stackoverflow.com/users/9034974/cas-donoghue?tab=profile" 
                             target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i> s.o.</a>
                     </div>
-                    <div><a href="mailto:cas.donoghue@gmail.com"
-                            target="_blank"><i class="fa fa-envelope"></i> email</a>
-                    </div>
-                    <div><a href="https://www.linkedin.com/in/casadilla/" 
+                    <div><a href="https://www.linkedin.com/in/casadilla" 
                             target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i> linkedin</a>
+                    </div>
+                    <div><a href="https://donoghuc.github.io" 
+                            target="_blank"><i class="fa fa-info-circle" aria-hidden="true"></i> resume</a>
+                    </div>
+                    <div><a href="mailto:cas.donoghue@gmail.com"
+                            target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i> email</a>
                     </div>
                 </div>
 

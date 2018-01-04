@@ -1,5 +1,5 @@
 # Provision New Server
-Buy VPS (Ubuntu 16.04.03 x64). Use Ansible to configure following security features:
+Rent a VPS (Ubuntu 16.04.03 x64). Use Ansible to configure following security features:
 - dissalow root ssh login
 - enable fail2ban (reject malicious IPs)
 - set up non-root user
@@ -25,3 +25,16 @@ __Note:__ variable names from deploy/roles/tasks/main.yml shown in [brackets] an
 4. following params set in /etc/sshd_config:
  - PasswordAuthentication no (__Note:__ default setting was allready no for Ubuntu distro)
  - PermitRootLogin no
+
+### Test
+Can I log in as new user? :white_check_mark:
+```
+cas@ubuntu:~/working_dir/casadilla_web$ ssh -i /path/to/ssh/key [deploy_user]@[server ip]
+Welcome to Ubuntu 16.04.3 LTS (GNU/Linux 4.4.0-104-generic x86_64)
+```
+Can I not log in as root? :white_check_mark:
+```
+cas@ubuntu:~/working_dir/casadilla_web$ ssh -i /path/to/ssh/key [deploy_user]@[server ip]
+Permission denied (publickey).
+```
+

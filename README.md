@@ -1,5 +1,8 @@
 # Personal Website Implemented Using Pyramid
 
+This repository contians the source code for my personal website. 
+[cas-donoghue.org](https://www.cas-donoghue.org)
+
 ## Build new ubuntu VM (VMware version: 12.5.7 build-5813279)
 ```
 cas@ubuntu:~$ lsb_release -a

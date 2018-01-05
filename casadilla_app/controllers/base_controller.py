@@ -43,5 +43,4 @@ class BaseController:
     def req_details(self):
         ''' gather interesting user details to log when hitting homepg  '''
         interesting_params = ['REMOTE_ADDR', 'HTTP_USER_AGENT', 'HTTP_REFERER', 'HTTP_COOKIE']
-        # return  json.dumps({key: self.request.headers.environ[key] for key in interesting_params})
-        return list(self.request.headers.environ.keys())
+        return  json.dumps({key: self.request.headers.environ.get(key, "NA") for key in interesting_params})

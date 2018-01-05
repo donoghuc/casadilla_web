@@ -3,6 +3,6 @@
 ##
 - name: apply standard configuration to server
   hosts: common
-  user: {{ deploy_user }}
+  user: "{{ deploy_user }}"
   roles:
     - common

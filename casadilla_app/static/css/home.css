@@ -41,7 +41,7 @@
     border-bottom: none;
 }
 
-a {
+.underline_link {
     color: yellow;
     text-decoration: underline;
 }

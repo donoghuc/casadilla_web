@@ -25,7 +25,7 @@
                     </div>
                     <div class="col-sm-10" info> 
                         <h3>What is the purpose of this site?</h3>
-                        <p> Since 2016 I have had the great pleasure of writing python code for school (BS computer science OSU), for pharmaceutical research (Sarepta Therapeutics) and for the manufacturing industry (Oracle/Sun Microsystems). I have primarily used python for the automation of data analysis and visualization. Check out my <a href="https://donoghuc.github.io" target="_blank">resume</a> for information about my professional expereince. 
+                        <p> Since 2016 I have had the great pleasure of writing python code for school (BS computer science OSU), for pharmaceutical research (Sarepta Therapeutics) and for the manufacturing industry (Oracle/Sun Microsystems). I have primarily used python for the automation of data analysis and visualization. Check out my <a class="underline_link" href="https://donoghuc.github.io" target="_blank">resume</a> for information about my professional expereince. 
                         </p>
                         <br>
                         <p>

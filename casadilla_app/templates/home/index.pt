@@ -25,11 +25,11 @@
                     </div>
                     <div class="col-sm-10" info> 
                         <h3>What is the purpose of this site?</h3>
-                        <p> Since 2016 I have had the great pleasure of writing python code for school (BS computer science OSU), for pharmaceutical research (Sarepta Therapeutics) and for the manufacturing industry (Oracle/Sun Microsystems). I have primarily used python for the automation of data analysis and visualization. 
+                        <p> Since 2016 I have had the great pleasure of writing python code for school (BS computer science OSU), for pharmaceutical research (Sarepta Therapeutics) and for the manufacturing industry (Oracle/Sun Microsystems). I have primarily used python for the automation of data analysis and visualization. Check out my <a href="https://donoghuc.github.io" target="_blank">resume</a> for information about my professional expereince. 
                         </p>
                         <br>
                         <p>
-                        This site is my excuse to explore python for web development. I intend to publish content that interests me with the underlying purpose of learning  web development techniques using python. 
+                        This site is my excuse to explore python for web development. I intend to publish content that interests me with the underlying purpose of learning  web development techniques using python. Another goal for this site is to learn more about web hosting, VPS maintence and general dev-ops.
                         </p>
                     </div>
                 </div>

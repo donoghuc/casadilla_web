@@ -20,9 +20,7 @@ requires = [
 ]
 
 tests_require = [
-    'WebTest >= 1.3.1',  # py3 compatibility
-    'pytest',  # includes virtualenv
-    'pytest-cov',
+    'pytest'
 ]
 
 setup(name='casadilla_app',

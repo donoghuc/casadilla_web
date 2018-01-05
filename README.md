@@ -23,12 +23,16 @@ cas@ubuntu:~$ source .bashrc
 cas@ubuntu:~$ python --version
 Python 3.6.3 :: Anaconda, Inc.
 ```
+## Project Dir
+Note: I have this project at ~/working_dir/casadilla_web. This will be noted in file paths in examples below
 
-## set up conda environment
+## Make virtual environment for project
 ```
-cas@ubuntu:~$ conda create --name web_app
-cas@ubuntu:~$ source activate web_app
-(web_app) cas@ubuntu:~$ 
+cas@ubuntu:~$ pip install virtualenv
+cas@ubuntu:~/working_dir/casadilla_web$ virtualenv -p /home/cas/miniconda/bin/python web_app
+cas@ubuntu:~/working_dir/casadilla_web$ source ./web_app/bin/activate
+(web_app) cas@ubuntu:~/working_dir/casadilla_web$ 
+
 ```
 
 ## Install node and npm (for bower to manage static resources)
@@ -45,4 +49,13 @@ cas@ubuntu:~$ sudo npm install -g bower
 ## build project package
 ```
 (web_app) cas@ubuntu:~/working_dir/casadilla_web$ pip install -e .
+```
+
+## start development server on local machine
+```
+(web_app) cas@ubuntu:~/working_dir/casadilla_web$ pserve development.ini 
+...TON OF LOGGIN STUFF OMMITED...
+Running in dev mode.
+Starting server in PID 8242.
+Serving on http://localhost:6543
 ```

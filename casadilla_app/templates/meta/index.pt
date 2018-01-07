@@ -1,0 +1,71 @@
+<div metal:use-macro="view.layout">
+    <div metal:fill-slot="main_content">
+
+        <!-- Page Content -->
+
+        <a name="about"></a>
+        <div class="content-section-a  ${view.alternate_row_style()}">
+
+            <div class="container">
+                <div class="about-me">
+                    <div class="col-sm-2 profile-pic">
+                        <img src="/static/img/profile.png"
+                             class="img img-circle img-responsive"/>
+                             <span> <i class="fa fa-user" aria-hidden="true"></i> Cas Donoghue</span>
+                    </div>
+                    <div class="col-sm-10" info> 
+                        <h3>What is the purpose of this site?</h3>
+                        <p> Since 2016 I have had the great pleasure of writing python code for school (BS computer science OSU), for pharmaceutical research (Sarepta Therapeutics) and for the manufacturing industry (Oracle/Sun Microsystems). I have primarily used python for the automation of data analysis and visualization. Check out my <a class="underline_link" href="https://donoghuc.github.io" target="_blank">resume</a> for information about my professional expereince. 
+                        </p>
+                        <br>
+                        <p>
+                        This site is my excuse to explore python for web development. I intend to publish content that interests me with the underlying purpose of learning  web development techniques using python. Another goal for this site is to learn more about web hosting, VPS maintence and general dev-ops.
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+            <!-- /.container -->
+
+        </div>
+        <!-- /.content-section-a -->
+
+        <a name="site"></a>
+        <div class="content-section-a  ${view.alternate_row_style()}">
+
+            <div class="container">
+                <div class="site-stuff">
+                    <div class="col-sm-8" info> 
+                        <h3>How is this site built?</h3>
+                        <p>The triangle image of logos represent the building blocks that power this site</p>
+                            <ul class="">
+                                <li>The site is hosted on a Digital Ocean VPS</li>
+                                <li>The Operating System of the server is Ubuntu (also developed in Ubuntu)</li>
+                                <li>Ansible is used to provision the server</li>
+                                <li>Python is the underlying programming language</li>
+                                <li>Pytest is used for testing</li>
+                                <li>Pyramid web framework is used for operating on internet using MVC architecture</li>
+                            </ul>
+                    </div>
+                    <div class="col-sm-4 tree-pic">
+                        <img src="/static/img/tree.png"
+                             class="img img-rounded img-responsive"/>
+                    </div>
+                </div>
+
+
+            </div>
+            <!-- /.container -->
+
+        </div>
+        <!-- /.content-section-a -->
+
+    </div>
+
+
+    <div metal:fill-slot="additional_css">
+        <link href="/static/css/home.css?cacheId=${view.build_cache_id('/static/css/home.css')}" rel="stylesheet">
+    </div>
+
+</div>

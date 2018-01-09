@@ -48,7 +48,7 @@
                 <div class="site-stuff">
                     <div class="col-sm-8" info> 
                         <h3>How is this site built?</h3>
-                        <p>The triangle image of logos represent the building blocks that power this site</p>
+                        <p>The triangle image of logos represent the building blocks that power this site. For more detailed information about how this site is built please see the <a class="underline_link" href="/meta">meta</a> description.</p>
                             <ul class="">
                                 <li>The site is hosted on a Digital Ocean VPS</li>
                                 <li>The Operating System of the server is Ubuntu (also developed in Ubuntu)</li>

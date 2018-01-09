@@ -31,14 +31,14 @@
         </div>
         <!-- /.content-section-a -->
 
-        <a name="site"></a>
+        <a name="Infrastructure"></a>
         <div class="content-section-a  ${view.alternate_row_style()}">
 
             <div class="container">
                 <div class="site-stuff">
                     <div class="col-sm-8" info> 
-                        <h3>How is this site built?</h3>
-                        <p>The triangle image of logos represent the building blocks that power this site</p>
+                        <h3>Infrastructure</h3>
+                        <p>All the content that is being delivered to your browser right now has to come from somewhere. In this case it is coming from a <a class="underline_link" href="https://www.digitalocean.com/" target="_blank"< Digital Ocean </a> server located in San Francisco CA. In this section I will describe the details of renting the virtual private server (VPS), configuring the server and maintaining it. An excellent resource for learning about deploying python web apps is <a class="underline_link" href="https://www.fullstackpython.com/" target="_blank">Full Stack Python </a/> by <a class="underline_link" href="https://twitter.com/mattmakai?lang=en" target="_blank"> Matt Makai </a>. </p>
                             <ul class="">
                                 <li>The site is hosted on a Digital Ocean VPS</li>
                                 <li>The Operating System of the server is Ubuntu (also developed in Ubuntu)</li>

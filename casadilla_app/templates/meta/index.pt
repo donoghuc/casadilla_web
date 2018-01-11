@@ -36,13 +36,11 @@
 
             <div class="container">
                 <div class="site-stuff">
-                    <div class="col-sm-8" info> 
+                    <div class="col-sm-12" info> 
                         <h3>Infrastructure</h3>
                         <p>All the content that is being delivered to your browser right now has to come from somewhere. In this case it is coming from a <a class="underline_link" href="https://www.digitalocean.com/" target="_blank"> Digital Ocean </a> server located in San Francisco CA. In this section I will describe the details of renting the virtual private server (VPS), configuring the server and maintaining it. An excellent resource for learning about deploying python web apps is <a class="underline_link" href="https://www.fullstackpython.com/" target="_blank">Full Stack Python</a/> by <a class="underline_link" href="https://twitter.com/mattmakai?lang=en" target="_blank">Matt Makai</a>. </p>
                     </div>
-                    <div class="col-sm-4 tree-pic">
-                        <i class="devicon-amazonwebservices-original"></i>
-                     </div>
+                    <div><i class="devicon-amazonwebservices-original" id="test_this"></i></div>
                 </div>
 
 

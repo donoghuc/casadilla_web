@@ -39,19 +39,10 @@
                     <div class="col-sm-8" info> 
                         <h3>Infrastructure</h3>
                         <p>All the content that is being delivered to your browser right now has to come from somewhere. In this case it is coming from a <a class="underline_link" href="https://www.digitalocean.com/" target="_blank"> Digital Ocean </a> server located in San Francisco CA. In this section I will describe the details of renting the virtual private server (VPS), configuring the server and maintaining it. An excellent resource for learning about deploying python web apps is <a class="underline_link" href="https://www.fullstackpython.com/" target="_blank">Full Stack Python</a/> by <a class="underline_link" href="https://twitter.com/mattmakai?lang=en" target="_blank">Matt Makai</a>. </p>
-                            <ul class="">
-                                <li>The site is hosted on a Digital Ocean VPS</li>
-                                <li>The Operating System of the server is Ubuntu (also developed in Ubuntu)</li>
-                                <li>Ansible is used to provision the server</li>
-                                <li>Python is the underlying programming language</li>
-                                <li>Pytest is used for testing</li>
-                                <li>Pyramid web framework is used for operating on internet using MVC architecture</li>
-                            </ul>
                     </div>
                     <div class="col-sm-4 tree-pic">
-                        <img src="/static/img/tree.png"
-                             class="img img-rounded img-responsive"/>
-                    </div>
+                        <i class="devicon-amazonwebservices-original"></i>
+                     </div>
                 </div>
 
 
@@ -66,6 +57,8 @@
 
     <div metal:fill-slot="additional_css">
         <link href="/static/css/home.css?cacheId=${view.build_cache_id('/static/css/home.css')}" rel="stylesheet">
+        <link href="/static/bower_components/devicon/devicon.min.css?cacheId=${view.build_cache_id('/static/bower_components/devicon/devicon.min.css')}" rel="stylesheet">
+
     </div>
 
 </div>

@@ -33,6 +33,20 @@
 
         <a name="Infrastructure"></a>
         <div class="content-section-a  ${view.alternate_row_style()}">
+            <div class="col-sm-4 logo-1-pic">
+                        <img src="/static/img/do_logo.png"
+                             class="img img-rounded img-responsive"/>
+            </div>
+
+            <div class="col-sm-4 logo-2-pic">
+                        <img src="/static/img/ansible_logo.png"
+                             class="img img-rounded img-responsive"/>
+            </div>
+
+            <div class="col-sm-4 logo-2-pic">
+                        <img src="/static/img/github_logo.png"
+                             class="img img-rounded img-responsive"/>
+            </div>
 
             <div class="container">
                 <div class="site-stuff">
